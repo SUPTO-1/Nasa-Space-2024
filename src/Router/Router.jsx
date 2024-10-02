@@ -7,6 +7,7 @@ import ExploreSpace from './../Page/ExploreSpace';
 import Comparison from './../Page/Comparison';
 import EventAlert from './../Page/EventAlert';
 import Game from "../Page/Game";
+import Earth from "../Page/Earth";
 
 
 
@@ -35,6 +36,10 @@ import Game from "../Page/Game";
           path: "/eventalert",
           element: <EventAlert></EventAlert>
         },
+        {
+          path:'/earth',
+          element:<Earth></Earth>
+        }
       ],
     },
   ]);
