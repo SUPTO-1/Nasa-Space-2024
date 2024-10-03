@@ -12,7 +12,7 @@ export default function Banner() {
                     <Link to='/explorespace'><button className="btn ml-10 mt-5 text-lg items-center text-[#A90000]" style={{ background: "linear-gradient(90deg, #FFEE9B, #FFCC7C, #FDC273, #E4B370, #C7A871, #B29F6A)" }}>Explore Space <MdArrowOutward className="text-2xl" /></button></Link>
                 </div>
                 <div className="relative">
-                    <Link>
+                    <Link to='/chatbot'>
                         <img src={chaticon} alt="" className="w-20 absolute right-28 top-10" />
                     </Link>
                 </div>

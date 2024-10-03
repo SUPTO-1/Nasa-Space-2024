@@ -8,6 +8,7 @@ import Comparison from './../Page/Comparison';
 import EventAlert from './../Page/EventAlert';
 import Game from "../Page/Game";
 import Earth from "../Page/Earth";
+import Chat from "../Page/Chat";
 
 
 
@@ -39,6 +40,10 @@ import Earth from "../Page/Earth";
         {
           path:'/earth',
           element:<Earth></Earth>
+        },
+        {
+          path:'/chatbot',
+          element: <Chat></Chat>
         }
       ],
     },
