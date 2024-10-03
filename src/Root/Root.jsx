@@ -1,14 +1,18 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Share/Navbar";
 import Footer from "../Share/Footer";
 
 
 const Root = () => {
+
+    const location = useLocation();
+    const noNavFooter = location.pathname.includes('explorespace');
+
     return (
         <>
-            <Navbar></Navbar>
+            { noNavFooter || <Navbar></Navbar>}
             <Outlet></Outlet>
-            <Footer></Footer>
+            { noNavFooter || <Footer></Footer>}
         </>
     );
 };
