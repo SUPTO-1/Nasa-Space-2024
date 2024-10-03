@@ -11,6 +11,7 @@ const OurTeam = () => {
     return (
         <>
             <div className="bg-[#343a40]">
+                {/* Header Sction */}
                 <SectionHead></SectionHead>
                 <section className="dark:bg-gray-100 dark:text-gray-800 pb-16 text-[#FFFFFF]">
                     {/* Team Leader */}
