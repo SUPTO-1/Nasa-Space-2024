@@ -1,4 +1,5 @@
 import ReactPlayer from 'react-player';
+import { motion } from 'framer-motion';
 
 const Earth = () => {
     return (
@@ -22,6 +23,29 @@ const Earth = () => {
                 {/* Add the headline below the video */}
                 <div className="text-center mt-4">
                     <p className="text-2xl font-semibold">Watch mission of Masud</p>
+                </div>
+            </div>
+
+            <div className='mt-16 relative'>
+                <h2 className='text-3xl font-bold text-left pl-[480px] font-blackOp text-white'>Gravity</h2>
+
+                {/* Boy Jumping Animation */}
+                <div className="flex justify-center items-center h-screen bg-black text-white relative">
+                    <motion.div
+                        initial={{ y: 0 }}
+                        animate={{ y: [0, -300, 0] }} // Boy jumps up to -300px and comes back
+                        transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }} // Repeats the animation infinitely
+                        className="w-36" // Adjust size of the boy
+                    >
+                        <img src="../../public/boy-jump.png" alt="Boy Jumping" />
+                    </motion.div>
+
+                    {/* Gravity Value Positioned Right Below the Jumping Boy */}
+                    <div className='absolute top-[75%] text-center'>
+                        <h2 className="text-2xl font-blackOp">
+                            9.81 <span className="text-lg">m/s<sup>2</sup></span>
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
