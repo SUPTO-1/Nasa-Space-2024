@@ -15,7 +15,7 @@ const OurTeam = () => {
     <SectionHead></SectionHead>
     <section className="dark:bg-gray-100 dark:text-gray-800 bg-[#343a40] pb-16 text-[#FFFFFF]">
         {/* Team Leader */}
-        <div className="mb-8">
+        <div className="mb-8 font-poppins">
             <div className="border-2 border-[#7b8996] rounded-xl w-[350px] mx-auto py-6 px-3">
                 <div>
                     <img alt="" className="object-cover h-60 w-60 mx-auto bg-center dark:bg-gray-500 rounded-full" src={supto} />
@@ -32,7 +32,7 @@ const OurTeam = () => {
             </div>
         </div>
         {/* Team Member */}
-        <div className="mx-3 grid grid-cols-4">
+        <div className="mx-3 grid grid-cols-4 font-poppins">
             {/* Jayed */}
             <div className="border-2 border-[#7b8996] rounded-xl w-[350px] mx-auto py-6 px-3">
                 <div>
@@ -53,8 +53,8 @@ const OurTeam = () => {
                 <div>
                     <img alt="" className="object-cover h-60 w-60 mx-auto bg-center dark:bg-gray-500 rounded-full" src={hridoy} />
                 </div>
-                <div className="flex flex-col items-center mt-3">
-                    <h4 className="text-xl font-bold">Md. Shahriyar Hossain Chowdhury</h4>
+                <div className="flex flex-col items-center mt-3 text-center">
+                    <h4 className="text-2xl font-bold">Md. Shahriyar Hossain Chowdhury</h4>
                     <p className="text-base dark:text-gray-600 mt-2">Developer</p>
                     <div className="flex mt-2 space-x-2 text-lg">
                         <Link><h1><FaFacebookF /></h1></Link>
