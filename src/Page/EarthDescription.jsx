@@ -8,6 +8,7 @@ const EarthDescription = () => {
             <div className="h-screen" style={{ backgroundImage: `url('../../public/earth.png')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
             </div>
 
+            
 
             <h1 className="text-4xl font-bold my-8 text-center font-blackOp">Description</h1>
 
