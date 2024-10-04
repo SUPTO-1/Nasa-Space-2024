@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const Earth = () => {
   return (
     <div className="bg-black text-white">
@@ -94,8 +94,8 @@ const Earth = () => {
         </div>
       </div>
       <div className="flex justify-between p-10 mt-10">
-        <img src="../../public/Vector.png" alt="" />
-        <img src="../../public/Vector (1).png" alt="" />
+       <img src="../../public/Vector.png" alt="" />
+       <Link to="/earthdescription"><img src="../../public/Vector (1).png" alt="" /></Link>
       </div>
     </div>
   );
