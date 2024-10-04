@@ -9,6 +9,7 @@ import EventAlert from './../Page/EventAlert';
 import Game from "../Page/Game";
 import Earth from "../Page/Earth";
 import Chat from "../Page/Chat";
+import EarthDescription from "../Page/EarthDescription";
 
 
 
@@ -44,6 +45,10 @@ import Chat from "../Page/Chat";
         {
           path:'/chatbot',
           element: <Chat></Chat>
+        },
+        {
+          path:'/earthdescription',
+          element: <EarthDescription></EarthDescription>
         }
       ],
     },

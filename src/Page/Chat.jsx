@@ -28,7 +28,7 @@ const Chat = () => {
     };
 
     return (
-        <div className="min-h-screen flex flex-col bg-blue-50">
+        <div className="min-h-screen flex flex-col bg-blue-50 font-kurale">
             {/* Main Content */}
             <div className="flex flex-1">
                 {/* Sidebar */}
@@ -51,7 +51,7 @@ const Chat = () => {
                     <div className="rounded-full p-6 bg-[#93C5FD] w-44 h-44 mx-auto mb-4">
                         <h1><RiRobot2Line  className="text-9xl text-[#BFDBFE]"/></h1>
                     </div>
-                    <h1 className="text-[#93C5FD] w-3/12 text-center text-2xl mx-auto mb-4">How can I help you today?</h1>
+                    <h1 className="text-[#93C5FD] w-3/12 text-center text-2xl mx-auto mb-4 font-robotoMono">How can I help you today?</h1>
                     {/* Chat Bubbles */}
                     <div className="space-y-4 flex-grow">
                         {chatHistory.map((chat, index) => (
