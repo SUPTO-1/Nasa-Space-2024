@@ -5,7 +5,7 @@ import chaticon from '../../public/playbutton.png';
 export default function Banner() {
     return (
         <>
-            <div className="h-screen" style={{ backgroundImage: `url('../../public/space.png')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+            <div className="h-screen" style={{ backgroundImage: `url('https://i.ibb.co.com/jMGNqrq/space.png')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                 <div className="pt-80">
                     <h1 className="text-4xl font-bold ml-10 w-80 font-blackOp">Galaxies Beyond Endless Space Adventure</h1>
                     <p className="ml-10 mt-7 w-4/12 font-kurale">Space is a vast, endless area beyond Earth, filled with planets, stars, and galaxies, where extreme temperatures and gravity shape everything.</p>

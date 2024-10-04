@@ -1,13 +1,15 @@
 import ReactPlayer from "react-player";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { MdArrowForwardIos } from "react-icons/md";
+import { IoIosArrowBack } from "react-icons/io";
 const Earth = () => {
   return (
     <div className="bg-black text-white">
       <div
         className="h-screen"
         style={{
-          backgroundImage: `url('../../public/earth.png')`,
+          backgroundImage: `url('https://i.ibb.co.com/0fVhhX9/earth.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -54,7 +56,7 @@ const Earth = () => {
             transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }} // Repeats the animation infinitely
             className="w-36" // Adjust size of the boy
           >
-            <img src="../../public/boy-jump.png" alt="Boy Jumping" />
+            <img src="https://i.ibb.co.com/RTmvrr8/boy-jump.png" alt="Boy Jumping" />
           </motion.div>
 
           {/* Gravity Value Positioned Right Below the Jumping Boy */}
@@ -74,10 +76,10 @@ const Earth = () => {
         </h2>
         <div className="flex flex-col items-center justify-center min-h-screen text-white">
           <div>
-            <img src="../../public/earth ratio.png" alt="" />
+            <img src="https://i.ibb.co.com/9gR5wdy/earth-ratio.png" alt="" />
           </div>
           <div className="mt-10">
-            <img src="../../public/three.png" alt="" />
+            <img src="https://i.ibb.co.com/Sd6vVqS/three.png" alt="" />
           </div>
 
           {/* Title */}
@@ -89,13 +91,14 @@ const Earth = () => {
       <div className="">
         <h2 className="text-3xl font-bold text-left pl-[480px] mt-32 font-blackOp text-white">Weight</h2>
         <div className="flex flex-col items-center justify-center min-h-screen text-white">
-        <img  src="../../public/weight.png" alt="" />
+        <img  src="https://i.ibb.co.com/rdVfxWs/weight.png" alt="" />
         <h2 className="mt-10 text-4xl font-medium"> 5.97 x 10<sup>24</sup> kg</h2>
         </div>
       </div>
       <div className="flex justify-between p-10 mt-10">
-       <img src="../../public/Vector.png" alt="" />
-       <Link to="/earthdescription"><img src="../../public/Vector (1).png" alt="" /></Link>
+      <IoIosArrowBack className="text-6xl" />
+       {/* <img src="../../public/Vector.png" alt="" /> */}
+       <Link to='/earthdescription'><MdArrowForwardIos className="text-6xl" /></Link>
       </div>
     </div>
   );

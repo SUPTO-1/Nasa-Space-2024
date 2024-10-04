@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default function EventAlert() {
   return (
-    <div className="min-h-screen" style={{ backgroundImage: `url('../../public/nasa-hubble-space-telescope-4UIU77rjrCc-unsplash.jpg')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+    <div className="min-h-screen" style={{ backgroundImage: `url('https://i.ibb.co.com/fYpwVGd/nasa-hubble-space-telescope-4-UIU77rjr-Cc-unsplash.jpg')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
       <main className="p-8">
         {/* Apophis Alert */}
         <section className="glass p-3 rounded-md mb-6 shadow-lg grid grid-cols-10 items-center">

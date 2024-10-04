@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const EarthDescription = () => {
     return (
         <div className="bg-black text-white">
-            <div className="h-screen" style={{ backgroundImage: `url('../../public/earth.png')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+            <div className="h-screen" style={{ backgroundImage: `url('https://i.ibb.co.com/0fVhhX9/earth.png')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
             </div>
 
             
